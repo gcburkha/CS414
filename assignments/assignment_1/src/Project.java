@@ -9,5 +9,8 @@ public class Project {
 	private ArrayList<Qualification> qualifications;
 	
 	
-	
+	public String toString() {
+		
+		return this.name + ":" + workers.size() + ":" + this.status;
+	}
 }

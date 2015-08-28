@@ -7,5 +7,11 @@ public class Company {
 	private ArrayList<Project> projects;
 	
 	
+	public String toString(){
+		
+		return this.name + ":" + workers.size() + ":" + projects.size();
+	}
+	
+	
 
 }
